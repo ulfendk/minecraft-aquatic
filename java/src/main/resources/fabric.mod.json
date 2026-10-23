@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "aquatic",
+	"version": "${version}",
+	"name": "Sea Life",
+	"description": "Fish, sharks, seals, whales and penguins, with fishing rods to catch them. Tame a seal, ride a whale. Works with Realistic Hunting.",
+	"authors": [
+		"ulfendk"
+	],
+	"contact": {
+		"homepage": "https://ulfendk.github.io/minecraft-aquatic/",
+		"sources": "https://github.com/ulfendk/minecraft-aquatic",
+		"issues": "https://github.com/ulfendk/minecraft-aquatic/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/aquatic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dk.ulfen.aquatic.SeaLife"
+		],
+		"client": [
+			"dk.ulfen.aquatic.client.SeaLifeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5"
+	},
+	"mixins": [
+		"aquatic.mixins.json"
+	]
+}

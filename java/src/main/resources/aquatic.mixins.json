@@ -1,0 +1,9 @@
+{
+	"required": true,
+	"package": "dk.ulfen.aquatic.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": ["FishingHookAccessor"],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

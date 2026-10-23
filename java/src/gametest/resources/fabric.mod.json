@@ -1,0 +1,15 @@
+{
+	"schemaVersion": 1,
+	"id": "aquatic-test",
+	"version": "1.0.0",
+	"name": "Sea Life tests",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-gametest": [
+			"dk.ulfen.aquatic.test.SeaLifeGameTests"
+		]
+	},
+	"depends": {
+		"aquatic": "*"
+	}
+}
