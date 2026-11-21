@@ -52,6 +52,10 @@ Add `src/animals/<id>.mjs` (see a similar species), an English guide text in `sr
 
 Bump `version` in `package.json`, add a section to `CHANGELOG.md`, then push a tag `vX.Y.Z`. The release workflow builds and tests everything and attaches the add-on, the packs and the Java jar.
 
+## Support
+
+If you enjoy our mods, you can support us on [GitHub Sponsors](https://github.com/sponsors/ulfendk) or [Buy Me a Coffee](https://buymeacoffee.com/ulfendk).
+
 ## License
 
 MIT. Not an official Minecraft product. Not approved by or associated with Mojang or Microsoft.
